@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 🎬 NOXE Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional, responsive, and dynamic Movie Database application built with **React 19**. NOXE allows users to browse trending movies, TV shows, and celebrities, view detailed information, and manage their authentication.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952b3?style=for-the-badge&logo=bootstrap)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- **Trending Dashboard**: Get the latest trending movies, TV shows, and people.
+- **Detailed Search**: Deep dive into item details including overview, ratings, and trailers.
+- **User Authentication**: Secure Login and Registration system using JWT.
+- **Media Context**: Advanced state management for media data across the app.
+- **Responsive Design**: Fully optimized for all screen sizes using Bootstrap 5.
+- **Smooth Navigation**: Client-side routing with `react-router-dom`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js 19
+- **Styling**: Bootstrap 5, Bootstrap Icons, CSS3
+- **Icons**: FontAwesome 7
+- **Authentication**: JWT Decode, Joi (Validation)
+- **Networking**: Axios (API Calls)
+- **Deployment**: Vercel
 
-### `npm test`
+## 🛠️ Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kerolosnagy66-droid/NOXE-Movie.git
+   ```
 
-### `npm run build`
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the application**:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+src/
+├── About/           # About page components
+├── Contact/         # Contact form and info
+├── Footer/          # Shared footer component
+├── Home/            # Main landing page
+├── ItemDetails/     # Specific item details view
+├── Login/           # Authentication modules
+├── MediaContext/    # Context API for global state
+├── MediaItem/       # Reusable media card component
+├── Movies/          # Movie listing page
+├── Navbar/          # Responsive navigation header
+├── People/          # Celebrity listing page
+├── Register/        # User signup logic
+├── Tv/              # TV shows listing page
+└── App.js           # Main routing and logic
+```
 
-### `npm run eject`
+## 🌐 API Reference
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Movies/TV Data**: [TMDB API](https://www.themoviedb.org/documentation/api)
+- **Auth Simulation**: [ReqRes API](https://reqres.in/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Developed by [Kerolos Nagy](https://github.com/kerolosnagy66-droid) during the Route Academy Course.

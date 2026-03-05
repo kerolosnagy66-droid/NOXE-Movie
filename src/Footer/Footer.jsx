@@ -19,6 +19,8 @@ export default function Footer() {
               <li><Link to="/" className=" text-decoration-none">Home</Link></li>
               <li><Link to="/movies" className=" text-decoration-none">Movies</Link></li>
               <li><Link to="/tv" className=" text-decoration-none">TV Shows</Link></li>
+              <li><Link to="/people" className=" text-decoration-none">People</Link></li>
+              <li><Link to="/about" className=" text-decoration-none">About</Link></li>
               <li><Link to="/contacts" className=" text-decoration-none">Contact</Link></li>
             </ul>
           </div>
