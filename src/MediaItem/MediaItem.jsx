@@ -19,7 +19,7 @@ export default function MediaItem({ item }) {
   };
 
   return (
-    <div className='col-md-2 my-1'>
+    <div className='col-6 col-sm-4 col-md-3 col-lg-2 my-1'>
       <Link className='text-decoration-none text-white' to={`/itemdetails/${item.id}/${item.media_type}`}>
         <div className='item position-relative rounded overflow-hidden'>
           <div className="image-container" style={{ minHeight: '270px' }}>

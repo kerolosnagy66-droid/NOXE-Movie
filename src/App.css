@@ -101,3 +101,18 @@
     transform: translateY(-5px);
   }
 }
+
+.footer-link,
+.footer-social-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #00d9ff !important;
+  padding-left: 8px;
+}
+
+.footer-social-icon:hover {
+  color: #00d9ff !important;
+  transform: translateY(-3px);
+}

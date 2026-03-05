@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className='container mt-5'>
         <div className="row py-5">
-          <div className="col-md-4 d-flex align-items-center">
+          <div className="col-12 col-md-4 d-flex align-items-center">
             <div className='w-100'>
               <div className="brdr w-25 mb-3"></div>
               <h2 className='h3'>Trending <br /> Movies <br /> To Watch Now</h2>
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <div className="row py-5">
-          <div className="col-md-4 d-flex align-items-center">
+          <div className="col-12 col-md-4 d-flex align-items-center">
             <div className='w-100'>
               <div className="brdr w-25 mb-3"></div>
               <h2 className='h3'>Trending <br /> TV <br /> To Watch Now</h2>
