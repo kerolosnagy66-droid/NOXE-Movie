@@ -92,7 +92,7 @@ export default function Login({ getUserData }) {
               type="email"
               className="form-control"
               name="email"
-              placeholder="e.g., john@mail.com"
+              placeholder="john@mail.com"
             />
           </div>
 
@@ -104,7 +104,7 @@ export default function Login({ getUserData }) {
               type="password"
               className="form-control"
               name="password"
-              placeholder="e.g., changeme"
+              placeholder="changeme"
             />
           </div>
 
